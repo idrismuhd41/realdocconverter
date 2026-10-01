@@ -1,0 +1,39 @@
+# Node
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Storage (runtime files)
+/storage/uploads/*
+/storage/tmp/*
+/storage/output/*
+/storage/quarantine/*
+!/storage/uploads/.gitkeep
+!/storage/tmp/.gitkeep
+!/storage/output/.gitkeep
+!/storage/quarantine/.gitkeep
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Coverage
+coverage/
+*.lcov
+
+# Misc
+tmp/
+*.bak
